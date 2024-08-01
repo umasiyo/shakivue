@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <ul>
+    <ul class="menu">
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
@@ -27,5 +27,9 @@ export default {
   position:fixed;
   top:0;
   z-index:10;
+}
+.menu li{
+  float:right;
+  margin: 0 auto;
 }
 </style>
