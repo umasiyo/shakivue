@@ -30,14 +30,13 @@ export default {
   z-index:10;
 }
 .menu{
-  letter-spacing:50px;
   line-height:70px;
   text-align:center;
-  color: white;
-  float:left;
 }
-.menu{
+.menu li{
   list-style: none;
+  float:left;
+  color: white;
 }
 
 </style>
