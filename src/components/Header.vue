@@ -22,16 +22,22 @@ export default {
 <style scoped>
 .header{
   width:100%;
-  height:65px;
+  height:70px;
   background-color: #082B71;
   position:fixed;
   top:0;
   left:0;
   z-index:10;
 }
-.menu li{
-  float:left;
+.menu{
+  letter-spacing:50px;
+  line-height:70px;
+  text-align:center;
   color: white;
-  text-align: center;
+  float:left;
 }
+.menu{
+  list-style: none;
+}
+
 </style>
