@@ -1,17 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="シャキルスタジオ"/>
+  <NiceHeader/>
+  <HelloWorld/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import NiceHeader from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    NiceHeader
   }
 }
+
 </script>
 
 <style>
