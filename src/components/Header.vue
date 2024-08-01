@@ -26,10 +26,12 @@ export default {
   background-color: #082B71;
   position:fixed;
   top:0;
+  left:0;
   z-index:10;
 }
 .menu li{
-  float:right;
-  margin: 0 auto;
+  float:left;
+  color: white;
+  text-align: center;
 }
 </style>
