@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+    <img alt="Shak_logo" src="../assets/logo_white.png">
     <ul class="menu">
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
@@ -18,7 +19,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 .header{
   width:100%;
@@ -30,13 +31,20 @@ export default {
   z-index:10;
 }
 .menu{
-  line-height:70px;
-  text-align:center;
+  display: flex;
+  justify-content: center;
 }
+
 .menu li{
   list-style: none;
   float:left;
   color: white;
+  padding: 10px;
+}
+.menu a{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-decoration: none;
 }
 
 </style>
