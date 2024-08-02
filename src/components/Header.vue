@@ -1,21 +1,21 @@
 <template>
   <div class="header">
+    <div>
     <img alt="Shak_logo" src="../assets/logo_white.png" class="logo">
-    <ul class="menu">
+    </div>
+    <div><ul class="menu">
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
-    </ul>
+    </ul></div>
+    <div><img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'NiceHeader',
-  props: {
-    msg: String
-  }
 }
 </script>
 
@@ -39,15 +39,18 @@ export default {
   color: white;
   padding: 10px;
 }
+
 .menu a{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Montserrat;
+  font-weight: bolder;
   color: white;
   text-decoration: none;
 }
 
 img.logo {
-width: 37px;
-height: 37px;
+  width: 37px;
+  height: 37px;
+  padding: 15px;
 }
 
 </style>

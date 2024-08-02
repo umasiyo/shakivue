@@ -1,17 +1,19 @@
 <template>
   <NiceHeader/>
-  <HelloWorld/>
+  <NiceTop/>
+  <!-- <HelloWorld/> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import NiceHeader from './components/Header.vue'
+import NiceTop from './components/Top.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    NiceHeader
+    NiceHeader,
+    NiceTop
   }
 }
 
