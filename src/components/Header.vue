@@ -26,15 +26,21 @@ html{
 }
 
 .header{
-  width: 100%;
-  height: 70px;
-  background-color: #082B71;
   position: fixed;
   top: 0;
   left: 0;
+  margin: 0;
   z-index: 10;
+  width: 100lvw;
+  height: 70px;
+  background-color: #082B71;
   display: flex;
   justify-content: space-between;
+}
+
+menu {
+  display: flex;
+  align-items: center;
 }
 
 .menu li{
