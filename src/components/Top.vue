@@ -33,7 +33,7 @@ img.top {
 
 .kasaneru{
   font-family: sans-serif;
-  font-size: 5lvw;
+  font-size: clamp(1.25rem, 0.341rem + 4.55vw, 3.75rem);
   position: absolute;
   top: 49%;
   left: 20%;

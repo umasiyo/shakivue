@@ -43,7 +43,7 @@ export default {
 .menu a{
   font-family: Montserrat;
   font-weight: bolder;
-  font-size: 1lvw;
+  font-size: clamp(1.25rem, 1.136rem + 0.57vw, 1.563rem);
   color: white;
   text-decoration: none;
 }
