@@ -40,14 +40,14 @@ html{
 .menu li{
   list-style: none;
   float: left;
-  line-height: 70px;
-  padding: 0 25px;
+  padding: 0 10px;
 }
 
 .menu a{
   font-family: Montserrat;
   font-weight: bolder;
   font-size: clamp(0.625rem, 0.33rem + 1.48vw, 1.438rem);/*min10px,max23px*/
+  line-height: 70px;
   color: white;
   text-decoration: none;
 }
