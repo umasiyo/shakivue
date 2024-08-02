@@ -39,8 +39,7 @@ html{
 }
 
 .menu li{
-  position: fixed;
-  top: 0;
+  margin-top: 0;
   padding: 0 10px;
   float: left;
   list-style: none;
