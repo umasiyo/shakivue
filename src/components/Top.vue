@@ -14,21 +14,27 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 /* *{border:solid 1px red;} */
+
+html{
+  font-size: 100%;
+}
+
 .top {
   display: block;
   position: relative;
-  left: -4px
+  /*left: -4px*/
 }
 
 img.top {
   width: 100vw;
-  height: 100lvh;/*height: 654px;*/
+  height: 100lvh;
   object-fit: cover;
 }
 
-h1.kasaneru{
+.kasaneru{
   font-family: sans-serif;
-  font-size: 500%;
+  /*font-size: 500%;*/
+  font-size: clamp(1.8rem, calc(1.25vw + 1.5rem), 5rem);
   position: absolute;
   top: 49%;
   left: 25%;
