@@ -21,6 +21,10 @@ export default {
 
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
+html{
+  font-size: 100%;
+}
+
 .header{
   width: 100%;
   height: 70px;
