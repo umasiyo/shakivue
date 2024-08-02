@@ -22,7 +22,7 @@ export default {
 
 img.top {
   width: 100vw;
-  height: 654px;
+  height: 100lvh;/*height: 654px;*/
   object-fit: cover;
 }
 
