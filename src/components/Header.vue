@@ -40,6 +40,7 @@ html{
 
 .menu li{
   margin: 0;
+  height: 70px;
   padding: 0 10px;
   float: left;
   list-style: none;
@@ -49,6 +50,7 @@ html{
   font-family: Montserrat;
   font-weight: bolder;
   font-size: clamp(0.625rem, 0.33rem + 1.48vw, 1.438rem);/*min10px,max23px*/
+  line-height: 70px;
   color: white;
   text-decoration: none;
 }
