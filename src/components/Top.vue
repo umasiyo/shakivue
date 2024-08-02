@@ -26,7 +26,7 @@ html{
 }
 
 img.top {
-  width: 100vw;
+  width: 100lvw;
   height: 100lvh;
   object-fit: cover;
 }
@@ -34,7 +34,7 @@ img.top {
 .kasaneru{
   font-family: sans-serif;
   /*font-size: 500%;*/
-  font-size: clamp(1.8rem, calc(1.25vw + 1.5rem), 5rem);
+  font-size: 5lvw;
   position: absolute;
   top: 49%;
   left: 25%;
