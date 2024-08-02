@@ -1,7 +1,7 @@
 <template>
   <div class="top">
-  <img alt="top_picture" src="../assets/top.png" class="top">
-  <h1 class="kasaneru">シャキルスタジオ<br>メンバー募集中！</h1>
+    <img alt="top_picture" src="../assets/top.png" class="top">
+    <h1 class="kasaneru">シャキルスタジオ<br>メンバー募集中！</h1>
   </div>
 </template>
 
@@ -31,7 +31,7 @@ h1.kasaneru{
   font-size: 500%;
   position: absolute;
   top: 49%;
-  left: 0%;
+  left: 25%;
   color: white;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   line-height: 110%;
