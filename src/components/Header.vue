@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img alt="Shak_logo" src="../assets/logo_white.png">
+    <img alt="Shak_logo" src="../assets/logo_white.png" class="logo">
     <ul class="menu">
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
@@ -29,10 +29,8 @@ export default {
   top:0;
   left:0;
   z-index:10;
-}
-.menu{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .menu li{
@@ -45,6 +43,11 @@ export default {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   text-decoration: none;
+}
+
+img.logo {
+width: 37px;
+height: 37px;
 }
 
 </style>
