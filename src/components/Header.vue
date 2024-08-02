@@ -47,7 +47,7 @@ html{
 .menu a{
   font-family: Montserrat;
   font-weight: bolder;
-  font-size: clamp(1.25rem, 1.136rem + 0.57vw, 1.563rem);
+  font-size: clamp(0.625rem, 0.17rem + 2.27vw, 1.875rem);
   color: white;
   text-decoration: none;
 }
