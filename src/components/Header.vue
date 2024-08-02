@@ -22,20 +22,20 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 .header{
-  width:100%;
-  height:70px;
+  width: 100%;
+  height: 70px;
   background-color: #082B71;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
 }
 
 .menu li{
   list-style: none;
-  float:left;
+  float: left;
   color: white;
   padding: 10px;
 }
@@ -43,6 +43,7 @@ export default {
 .menu a{
   font-family: Montserrat;
   font-weight: bolder;
+  font-size: 1lvw;
   color: white;
   text-decoration: none;
 }

@@ -33,11 +33,10 @@ img.top {
 
 .kasaneru{
   font-family: sans-serif;
-  /*font-size: 500%;*/
   font-size: 5lvw;
   position: absolute;
   top: 49%;
-  left: 25%;
+  left: 20%;
   color: white;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   line-height: 110%;
