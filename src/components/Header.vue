@@ -40,6 +40,8 @@ html{
 .menu li{
   list-style: none;
   float: left;
+  line-height: 70px;
+  padding: 0 25px;
 }
 
 .menu a{
@@ -47,7 +49,6 @@ html{
   font-weight: bolder;
   font-size: clamp(0.625rem, 0.33rem + 1.48vw, 1.438rem);/*min10px,max23px*/
   color: white;
-  line-height: 70px;
   text-decoration: none;
 }
 
