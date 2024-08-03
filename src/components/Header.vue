@@ -47,6 +47,8 @@ header{
   margin: 0;
   width: 100%;
   height: 70px;
+  z-index: 10;
+  align-items: center;
   background-color: #082B71;
   display: flex;
   justify-content: space-between;
