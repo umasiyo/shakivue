@@ -1,33 +1,26 @@
 <template>
-  <html lang="ja">
-    <head>
-      <meta charset="UTF-8">
-      <title>シャキルスタジオメンバー募集</title>
+  <html lang="ja"><!-- 日本語のhtml文書だよの宣言 -->
+    <head><!-- ページ情報記述 -->
+      <meta charset="UTF-8"><!-- 文字化けしないために必須 -->
+      <title>シャキルスタジオメンバー募集</title><!-- ブラウザタブ、ブックマークしたときのタイトル -->
       <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。">
     </head>
 
-    <body>
-      <div class="header">
+    <body><!-- 実際の中身ここからブラウザ上で表示される -->
+      <header>
         <div>
           <a href="https://umasiyo.github.io/shakivue/">
             <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
+            <h1>SHAKIL STUDIO</h1>
           </a>
         </div>
         <div>
           <nav>
             <ul class="menu">
-              <li>
-                <a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a>
-              </li>
-              <li>
-                <a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a>
-              </li>
-              <li>
-                <a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a>
-              </li>
+              <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
+              <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
+              <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
+              <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
             </ul>
           </nav>
         </div>
@@ -36,7 +29,7 @@
             <img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo">
           </a>
         </div>
-      </div>
+      </header>
     </body>
   </html>
 </template>
