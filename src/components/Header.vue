@@ -5,12 +5,11 @@
       <title>シャキルスタジオメンバー募集</title><!-- ブラウザタブ、ブックマークしたときのタイトル -->
       <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。">
     </head>
-
     <body><!-- 実際の中身ここからブラウザ上で表示される -->
       <header>
         <div class="logo">
           <a href="https://umasiyo.github.io/shakivue/">
-            <img src="../assets/logo_white.png" alt="ShakilStudio_logo">
+            <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
             <h1>SHAKIL STUDIO</h1>
           </a>
         </div>
@@ -33,27 +32,41 @@
     </body>
   </html>
 </template>
-
 <script>
 export default {
   name: 'NiceHeader',
 }
 </script>
-
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 html{ font-size: 100%; }
-header{ position: fixed; top: 0; left: 0; margin: 0; width: 100%; height: 70px; background-color: #082B71; justify-content: space-between; }
-.logo h1{ color: white; float: right;}
-.nav ul{ list-style-type: none; }
-.nav ul li{ float: left; padding: 0; }
-.nav ul li a{
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #082B71;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.logo h1{ color: white; float: right; }
+.nav ul{ list-style: none; position: relative; }
+.nav li{ display: inline-block; float: left; padding: 0; position: relative; }
+.nav li a{
+  display: block;
+  line-height: 3em;
   font-family: Montserrat;
   font-size: 14px;/*min10px,max23px*/
-  font-weight: bolder;
+  font-weight: 600;
   color: white;
+  text-align: center;
   padding: 0 14px;
   text-decoration: none;
 }
-img.logo{ width: 37px; height: 37px; padding: 15px; }
+img.logo { width: 37px; height: 37px; padding: 15px; }
 </style>
