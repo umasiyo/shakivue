@@ -57,19 +57,18 @@ header{
   align-content: center;
   justify-content: space-between;
 }
-.logo h1{ color: white; float: left; }
+.logo h1{ color: white; float: right; }
 .nav ul{ list-style: none; position: relative; }
-.nav li{
-  margin: 0;
-  height: 70px;
-  padding: 0 10px;
-  float: left;
-}
-.nav ul li a{
+.nav li{ display: inline-block; float: left; padding: 0; position: relative; }
+.nav li a{
+  display: block;
+  line-height: 3em;
   font-family: Montserrat;
-  font-weight: bolder;
-  font-size: clamp(0.625rem, 0.33rem + 1.48vw, 1.438rem);/*min10px,max23px*/
+  font-size: 14px;/*min10px,max23px*/
+  font-weight: 600;
   color: white;
+  text-align: center;
+  padding: 0 14px;
   text-decoration: none;
 }
 img.logo {
