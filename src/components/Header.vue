@@ -54,12 +54,12 @@ header{
   align-content: center;
   justify-content: space-between;
 }
-.logo h1{ color: white; float: right; }
+.logo h1{ color: white; line-height: 70px; float: right; }
 .nav ul{ list-style: none; position: relative; }
 .nav li{ display: inline-block; float: left; padding: 0; position: relative; }
 .nav li a{
   display: block;
-  line-height: 3em;
+  line-height: 70px;
   font-family: Montserrat;
   font-size: 14px;/*min10px,max23px*/
   font-weight: 600;
