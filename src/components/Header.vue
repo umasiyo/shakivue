@@ -11,7 +11,7 @@
         <div>
           <a href="https://umasiyo.github.io/shakivue/">
             <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
-            <h1>SHAKIL STUDIO</h1>
+            <!-- <h1>SHAKIL STUDIO</h1> -->
           </a>
         </div>
         <div>
