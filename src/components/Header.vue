@@ -8,7 +8,7 @@
 
     <body>
       <div class="header">
-        <div><img alt="Shak_logo" src="../assets/logo_white.png" class="logo"></div>
+        <div><img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo"></div>
         <div><ul class="menu">
           <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
           <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
