@@ -10,7 +10,7 @@
       <header>
         <div class="logo">
           <a href="https://umasiyo.github.io/shakivue/">
-            <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
+            <img src="../assets/logo_white.png" alt="ShakilStudio_logo">
             <h1>SHAKIL STUDIO</h1>
           </a>
         </div>
@@ -52,17 +52,16 @@ header{
   height: 70px;
   background-color: #082B71;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  align-content: center;
   justify-content: space-between;
 }
-.logo h1{ color: white; float: right; }
-.nav ul{ list-style: none; position: relative; }
-.nav li{ display: inline-block; float: left; padding: 0; position: relative; }
+.logo h1{ line-height:70px; color: white; float: right; }
+.nav ul{ list-style: none; flex-wrap: nowrap; align-items: center; justify-content: center; }
+.nav li{ float: left; padding: 0; }
 .nav li a{
   display: block;
-  line-height: 3em;
+  line-height: 70px;
   font-family: Montserrat;
   font-size: 14px;/*min10px,max23px*/
   font-weight: 600;
@@ -71,9 +70,5 @@ header{
   padding: 0 14px;
   text-decoration: none;
 }
-img.logo {
-  width: 37px;
-  height: 37px;
-  padding: 15px;
-}
+img.logo { width: 37px; height: 37px; padding: 15px; }
 </style>
