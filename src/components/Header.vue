@@ -16,7 +16,7 @@
         </div>
         <div>
           <nav class="nav">
-            <ul class="menu">
+            <ul>
               <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
               <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
               <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
@@ -43,27 +43,29 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 html{ font-size: 100%; }
-.logo{ color: white; }
 header{
   position: fixed;
   top: 0;
   left: 0;
   margin: 0;
-  z-index: 10;
   width: 100%;
   height: 70px;
   background-color: #082B71;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
   justify-content: space-between;
 }
-.menu li{
+.logo h1{ color: white; float: left; }
+.nav ul{ list-style: none; position: relative; }
+.nav li{
   margin: 0;
   height: 70px;
   padding: 0 10px;
   float: left;
-  list-style: none;
 }
-.menu a{
+.nav ul li a{
   font-family: Montserrat;
   font-weight: bolder;
   font-size: clamp(0.625rem, 0.33rem + 1.48vw, 1.438rem);/*min10px,max23px*/

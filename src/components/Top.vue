@@ -5,11 +5,11 @@
     </head>
 
     <body>
-      <div class="top">
+      <main class="top">
         <img src="../assets/top.png" alt="Top_picture" class="top">
         <h1 class="kasaneru">シャキルスタジオ<br>メンバー募集中！</h1>
         <h2>駆け出しのアナタも、熟練のアナタも大歓迎！</h2>
-      </div>
+      </main>
     </body>
   </html>
 </template>
