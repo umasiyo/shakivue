@@ -1,8 +1,10 @@
 <template>
-  <div class="top">
-    <img alt="top_picture" src="../assets/top.png" class="top">
-    <h1 class="kasaneru">シャキルスタジオ<br>メンバー募集中！</h1>
-  </div>
+  <html lang="ja">
+    <div class="top">
+      <img alt="top_picture" src="../assets/top.png" class="top">
+      <h1 class="kasaneru">シャキルスタジオ<br>メンバー募集中！</h1>
+    </div>
+  </html>
 </template>
 
 <script>

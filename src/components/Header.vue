@@ -1,16 +1,18 @@
 <template>
-  <div class="header">
-    <div>
-    <img alt="Shak_logo" src="../assets/logo_white.png" class="logo">
+  <html lang="ja">
+    <div class="header">
+      <div>
+      <img alt="Shak_logo" src="../assets/logo_white.png" class="logo">
+      </div>
+      <div><ul class="menu">
+        <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
+        <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
+        <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
+        <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
+      </ul></div>
+      <div><img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo"></div>
     </div>
-    <div><ul class="menu">
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
-    </ul></div>
-    <div><img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo"></div>
-  </div>
+  </html>
 </template>
 
 <script>
