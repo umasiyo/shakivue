@@ -48,12 +48,10 @@ header{ position: fixed; top: 0; left: 0; margin: 0; width: 100%; height: 70px; 
   align-items: center;
   justify-content: space-between;
 }
-.logo{ float: right; }
-.logo h1{ line-height:70px; color: white;}
-.nav ul{ list-style: none; }
+.logo h1{ line-height:70px; color: white; float: right;}
+.nav ul{ list-style-type: none; }
 .nav ul li{ float: left; padding: 0; }
 .nav ul li a{
-  display: block;
   line-height: 70px;
   font-family: Montserrat;
   font-size: 14px;/*min10px,max23px*/
