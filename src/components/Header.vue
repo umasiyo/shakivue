@@ -43,18 +43,14 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 html{ font-size: 100%; }
-header{ position: fixed; top: 0; left: 0; margin: 0; width: 100%; height: 70px; background-color: #082B71;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+header{ position: fixed; top: 0; left: 0; margin: 0; width: 100%; height: 70px; background-color: #082B71; justify-content: space-between; }
 .logo h1{ color: white; float: right;}
-.nav ul{ list-style-type: none; position: relative; }
+.nav ul{ list-style-type: none; }
 .nav ul li{ float: left; padding: 0; }
 .nav ul li a{
   font-family: Montserrat;
   font-size: 14px;/*min10px,max23px*/
-  font-weight: 600;
+  font-weight: bolder;
   color: white;
   padding: 0 14px;
   text-decoration: none;
