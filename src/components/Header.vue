@@ -49,9 +49,6 @@ header{
   height: 70px;
   background-color: #082B71;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
   justify-content: space-between;
 }
 .logo h1{ color: white; line-height: 70px; float: right; }
