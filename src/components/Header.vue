@@ -13,14 +13,26 @@
             <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
           </a>
         </div>
-        <div><ul class="menu">
-          <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
-          <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
-          <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
-          <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
-        </ul></div>
         <div>
-          <a href="https://www.instagram.com/">
+          <nav>
+            <ul class="menu">
+              <li>
+                <a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a>
+              </li>
+              <li>
+                <a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a>
+              </li>
+              <li>
+                <a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener">
             <img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo">
           </a>
         </div>
