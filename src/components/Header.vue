@@ -57,7 +57,7 @@ header{
   justify-content: space-between;
 }
 .logo h1{ line-height:70px; color: white; float: right; }
-.nav ul{ list-style: none; justify-content: center; }
+.nav ul{ list-style: none; }
 .nav li{ float: left; padding: 0; }
 .nav li a{
   display: block;
