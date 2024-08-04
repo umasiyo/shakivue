@@ -48,11 +48,12 @@ header{
   width: 100%;
   height: 70px;
   z-index: 10;
-  align-items: center;
   background-color: #082B71;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
+.logo{ display: flex; align-items: center; }
 .logo h1{ color: white; line-height: 70px; float: right; }
 .nav ul{ list-style: none; position: relative; }
 .nav li{ display: inline-block; float: left; padding: 0; position: relative; }
