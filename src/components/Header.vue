@@ -51,11 +51,10 @@ header{
   background-color: #082B71;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.shakilstudio { text-align: left; }
 .shakilstudio a{ display: flex; align-items: center; }
 .shakilstudio h1{ color: white; line-height: 70px; float: right; }
-.nav{ text-align: center; }
 .nav ul{ list-style: none; display: flex; align-items: center; position: relative; }
 .nav li{ display: inline-block; float: left; padding: 0; position: relative; }
 .nav a{
@@ -69,6 +68,5 @@ header{
   padding: 0 14px;
   text-decoration: none;
 }
-.insta_logo { text-align: right; }
 img.logo { width: 37px; height: 37px; padding: 15px; }
 </style>
