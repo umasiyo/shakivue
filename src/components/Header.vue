@@ -7,9 +7,9 @@
     </head>
     <body><!-- 実際の中身ここからブラウザ上で表示される -->
       <header>
-        <div class="logo">
+        <div class="shakilstudio">
           <a href="https://umasiyo.github.io/shakivue/">
-            <img src="../assets/logo_white.png" alt="ShakilStudio_logo">
+            <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
             <h1>SHAKIL STUDIO</h1>
           </a>
         </div>
@@ -53,11 +53,11 @@ header{
   align-items: center;
   justify-content: space-between;
 }
-.logo a{ display: flex; align-items: center; }
-.logo h1{ color: white; line-height: 70px; float: right; }
+.shakilstudio a{ display: flex; align-items: center; }
+.shakilstudio h1{ color: white; line-height: 70px; float: right; }
 .nav ul{ list-style: none; position: relative; }
 .nav li{ display: inline-block; float: left; padding: 0; position: relative; }
-.nav li a{
+.nav a{
   display: block;
   line-height: 70px;
   font-family: Montserrat;
