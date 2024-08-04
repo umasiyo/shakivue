@@ -1,6 +1,11 @@
 <template>
   <NiceHeader/>
   <NiceTop/>
+  <NiceAbout/>
+  <NiceWorks/>
+  <NiceRecords/>
+  <NiceForm/>
+  <NiceFooter/>
   <!-- <HelloWorld/> -->
 </template>
 
@@ -8,12 +13,22 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import NiceHeader from './components/Header.vue'
 import NiceTop from './components/Top.vue'
+import NiceAbout from './components/About.vue'
+import NiceWorks from './components/Works.vue'
+import NiceRecords from './components/Records.vue'
+import NiceForm from './components/Form.vue'
+import NiceFooter from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     NiceHeader,
-    NiceTop
+    NiceTop,
+    NiceAbout,
+    NiceWorks,
+    NiceRecords,
+    NiceForm,
+    NiceFooter
   }
 }
 

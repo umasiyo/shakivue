@@ -6,7 +6,7 @@
       <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。">
     </head>
     <body><!-- 実際の中身ここからブラウザ上で表示される -->
-      <header>
+      <header class="wrapper">
         <div class="shakilstudio">
           <a href="https://umasiyo.github.io/shakivue/">
             <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
@@ -14,8 +14,8 @@
           </a>
         </div>
         <div>
-          <nav class="nav">
-            <ul>
+          <nav>
+            <ul class="nav">
               <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
               <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
               <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
@@ -39,7 +39,8 @@ export default {
 </script>
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
-html{ font-size: 100%; }
+html{ font-size: 100%; margin: 0; padding: 0;}
+body{ margin: 0; padding: 0;}
 header{
   position: fixed;
   top: 0;
@@ -54,19 +55,9 @@ header{
   justify-content: space-between;
 }
 .shakilstudio a{ display: flex; align-items: center; }
-.shakilstudio h1{ color: white; line-height: 70px; float: right; }
-.nav ul{ list-style: none; display: flex; align-items: center; position: relative; }
-.nav li{ display: inline-block; float: left; padding: 0; position: relative; }
-.nav a{
-  display: block;
-  line-height: 70px;
-  font-family: Montserrat;
-  font-size: 14px;/*min10px,max23px*/
-  font-weight: 600;
-  color: white;
-  text-align: center;
-  padding: 0 14px;
-  text-decoration: none;
-}
+.shakilstudio h1{ float: right; color: white; }
+.nav{ display: flex; font-size: 20px; text-transform: uppercase; font-weight: 600; align-items: center; list-style: none; }/*min10px,max23px*//*font-family: Montserrat;*/
+.nav li{margin-left: 14px; }
+.nav a{ color: white; text-decoration: none;}
 img.logo { width: 37px; height: 37px; padding: 15px; }
 </style>
