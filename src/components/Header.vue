@@ -23,7 +23,7 @@
             </ul>
           </nav>
         </div>
-        <div>
+        <div class="insta_logo">
           <a href="https://www.instagram.com/" target="_blank" rel="noopener">
             <img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo">
           </a>
@@ -51,8 +51,8 @@ header{
   background-color: #082B71;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
+.shakilstudio { float: left; }
 .shakilstudio a{ display: flex; align-items: center; }
 .shakilstudio h1{ color: white; line-height: 70px; float: right; }
 .nav{ margin: 0 auto; }
@@ -69,5 +69,6 @@ header{
   padding: 0 14px;
   text-decoration: none;
 }
+.insta_logo { float: right; }
 img.logo { width: 37px; height: 37px; padding: 15px; }
 </style>
