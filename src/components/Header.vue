@@ -55,6 +55,7 @@ header{
 }
 .shakilstudio a{ display: flex; align-items: center; }
 .shakilstudio h1{ color: white; line-height: 70px; float: right; }
+.nav{ margin: 0 auto; }
 .nav ul{ list-style: none; display: flex; align-items: center; text-align: center; position: relative; }
 .nav li{ display: inline-block; float: left; padding: 0; position: relative; }
 .nav a{
