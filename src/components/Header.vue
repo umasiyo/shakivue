@@ -47,7 +47,7 @@ header{
 }
 .shakilstudio a{ display: flex; align-items: center; }
 .shakilstudio h1{ float: right; color: white; }
-.nav{ display: flex; font-size: 20px; text-transform: uppercase; font-weight: 600; align-items: center; list-style: none; }/*min10px,max23px*//*font-family: Montserrat;*/
+.nav{ display: flex; font-size: 20px; text-transform: uppercase; font-weight: 200; align-items: center; list-style: none; }/*min10px,max23px*//*font-family: Montserrat;*/
 .nav li{margin-left: 14px; }
 .nav a{ color: white; text-decoration: none;}
 img.logo { width: 37px; height: 37px; padding: 15px; }
