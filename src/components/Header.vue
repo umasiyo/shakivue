@@ -1,4 +1,5 @@
 <template>
+<a href="#Top">
 <header class="wrapper">
   <div class="shakilstudio">
     <a href="https://umasiyo.github.io/shakivue/">
@@ -9,19 +10,20 @@
   <div>
     <nav>
       <ul class="nav">
-        <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
-        <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
-        <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
-        <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
+        <li><a href="#About">ABOUT</a></li>
+        <li><a href="#Works">WORKS</a></li>
+        <li><a href="#Records">RECORDS</a></li>
+        <li><a href="#Form">FORM</a></li>
       </ul>
     </nav>
   </div>
   <div class="insta_logo">
-    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+    <a href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">
       <img src="../assets/ig_logo.png" alt="Instagram_logo" class="logo">
     </a>
   </div>
 </header>
+</a>
 </template>
 
 <script>
@@ -36,7 +38,6 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  margin: 0;
   width: 100%;
   height: 70px;
   z-index: 10;

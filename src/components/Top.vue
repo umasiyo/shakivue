@@ -1,10 +1,10 @@
 <template>
-  <div class="top">
-    <h1>シャキルスタジオ<br>メンバー募集中！</h1>
-    <h2>駆け出しのアナタも、熟練のアナタも大歓迎！</h2>
-    <a class="button" href="https://umasiyo.github.io/shakivue/" target="_blank" rel="noopener">制作の依頼をしたい方はこちらへ！</a>
-    <h3>見たいのは、<br>何かを本気で作る君</h3>
-  </div>
+<section class="top" id="Top">
+  <h1>シャキルスタジオ<br>メンバー募集中！</h1>
+  <h2>駆け出しのアナタも、熟練のアナタも大歓迎！</h2>
+  <a class="button" href="https://umasiyo.github.io/shakivue/" target="_blank" rel="noopener">制作の依頼をしたい方はこちらへ！</a>
+  <h3>見たいのは、<br>何かを本気で作る君</h3>
+</section>
 </template>
 
 <script>
@@ -16,7 +16,7 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 /* *{border:solid 1px red;} */
-.top { 
+section{ 
   display: block;
   text-align: left; 
   font-family: sans-serif; 
@@ -29,6 +29,7 @@ export default {
   background-image: url(../assets/top.png);
   background-repeat: no-repeat;
   object-fit: cover;
+  padding-top: 70px;
 }
 .top h1{
   font-size: 60px;/*min20px,max60px*/

@@ -3,15 +3,15 @@
   <div class="right">
     <nav>
       <ul class="nav">
-        <li><a href="https://vuejs.org" target="_blank" rel="noopener">ABOUT</a></li>
-        <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">WORKS</a></li>
-        <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">RECORDS</a></li>
-        <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">FORM</a></li>
+        <li><a href="#About">ABOUT</a></li>
+        <li><a href="#Works">WORKS</a></li>
+        <li><a href="#Records">RECORDS</a></li>
+        <li><a href="#Form">FORM</a></li>
       </ul>
     </nav>
     <h3>CONTACT US</h3>
     <div class="insta">
-      <a href="https://www.instagram.com/" target="_blank" rel="noopener">IG @shakilstudio</a>
+      <a href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">IG @shakilstudio</a>
     </div>
   </div>
   <div class="left">
@@ -33,7 +33,7 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 /* *{border:solid 1px red;} */
-footer{ background: #082B71; width: 100%; height: 420px; color: white; }
+footer{ background-color: #082B71; width: 100%; height: 420px; color: white; }
 .right { text-align: right; position: relative; top: 50px; right: 18%; }
 .nav{
   font-size: 23px;

@@ -53,6 +53,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-html{ font-size: 100%; }
+html{ font-size: 100%; scroll-behavior: smooth; }
 body{ margin: 0; padding: 0; }
 </style>

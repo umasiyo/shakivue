@@ -1,13 +1,13 @@
 <template>
-  <div class="about">
-    <div class="toumei">
-      <div class="text">
-        <h1>About</h1>
-        <h2>シャキルスタジオって何でしたっけ</h2>
-        <p>シャキルスタジオ（仮）とは、<br>ポスター、動画、webサイト等の制作を行う団体です。<br>依頼者に寄り添い、想像を超える作品を目指します。</p>
-      </div>
+<section class="about" id="About">
+  <div class="toumei">
+    <div class="text">
+      <h1>About</h1>
+      <h2>シャキルスタジオって何でしたっけ</h2>
+      <p>シャキルスタジオ（仮）とは、<br>ポスター、動画、webサイト等の制作を行う団体です。<br>依頼者に寄り添い、想像を超える作品を目指します。</p>
     </div>
   </div>
+</section>
 </template>
   
 <script>
@@ -19,7 +19,7 @@ export default {
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 /* *{border:solid 1px red;} */
-.about{
+section{
   display: block;
   width: 100%;
   height: 600px;
