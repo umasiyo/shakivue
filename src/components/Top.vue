@@ -17,7 +17,7 @@ export default {
 <style scoped>
 /* *{border:solid 1px red;} */
 .top { 
-  display: block;  
+  display: block;
   text-align: left; 
   font-family: sans-serif; 
   text-transform: uppercase; 

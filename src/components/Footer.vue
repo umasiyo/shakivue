@@ -45,7 +45,7 @@ footer{ background: #082B71; width: 100%; height: 420px; color: white; }
 .nav a{ color: white; text-decoration: none; }
 footer h3{ font-size: 23px; text-transform: uppercase; font-weight: 600; }
 .insta a{ font-size: 23px; color: white; text-decoration: none; font-weight: 200; position: relative; top: -10px;}
-.left { text-align: left; position: relative; top: -50px; margin-left: 18%;}
+.left { width: 80%; text-align: left; position: relative; top: 30px; left: 18%;}
 .shakilstudio{ display: flex; align-items: center; position: relative; top: -50px; }
 .shakilstudio h1{ float: right; font-size: 60px; font-weight: 600; }
 img.logo{ width: 80px; height: 80px; padding-right: 20px; }
