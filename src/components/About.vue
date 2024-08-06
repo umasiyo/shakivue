@@ -16,7 +16,6 @@ export default {
 }
 </script>
 
-<!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 section{
   display: block;

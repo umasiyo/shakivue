@@ -15,13 +15,12 @@ export default {
 }
 </script>
 
-<!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
 section{ 
   display: block;
   font-family: sans-serif; 
   text-transform: uppercase;/*すべての文字を大文字にする*/
-  color: white; 
+  color: white;
   width: 100%;
   height: 100vh;/*表示できる画面の縦100%*/
   background-size: cover;/*背景画像を表示したいアスペクト比に調整*/
@@ -35,6 +34,7 @@ section{
 .left h2{ font-size: 30px;/*min20px,max60px*/ filter: drop-shadow(0px 0px 2px #4f4e4e); margin: 0;}
 .button{ 
   font-size: 20px;
+  font-weight: 600;
   background: linear-gradient(to right, #E85BFF, #03F0FF);/*グラデーション*/
   color: white;
   line-height: 40px;

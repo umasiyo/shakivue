@@ -10,9 +10,7 @@
       </ul>
     </nav>
     <h3>CONTACT US</h3>
-    <div class="insta"><!--ここリンク出てこないのまじで治らないので見て見ぬふりしてます-->
-      <a href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">IG @shakilstudio</a>
-    </div>
+    <a class="insta" href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">IG @shakilstudio</a><!--ここリンク出てこないのまじで治らないので見て見ぬふりしてます-->
   </div>
   <div class="left"><!--左端揃えるやつら-->
       <p><small>&copy; 2024 Shakil Studio. All rights reserved.</small></p>
@@ -30,9 +28,7 @@ export default {
 }
 </script>
 
-<!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
-/* *{border:solid 1px red;} */
 footer{ background-color: #082B71; width: 100%; height: 420px; color: white; }
 .right { text-align: right; position: relative; top: 10%; right: 18%; }
 .nav{
@@ -45,8 +41,9 @@ footer{ background-color: #082B71; width: 100%; height: 420px; color: white; }
 .nav a{ color: white; text-decoration: none; }
 footer h3{ font-size: 23px; text-transform: uppercase; font-weight: 600; }
 .left p{ margin-bottom: 0;}
-.insta a{ font-size: 23px; color: white; text-decoration: none; font-weight: 200; }
-.left { width: 80%; height:0; text-align: left; position: relative; top: 3%; left: 18%;}
+.insta{ clear: both; font-size: 23px; color: white; text-decoration: none; font-weight: 200; }
+.text h1{font-size: 60px; color: black; margin-bottom: 0}
+.left { width: 50%; height:0; text-align: left; position: relative; top: 3%; left: 18%;}/*width80%にしてたとき、rightのinstaテキストと被ってリンク飛べなかったので、他の要素と被らないように注意*/
 .shakilstudio{ display: flex; align-items: center; position: relative; top: -30px;}
 .shakilstudio h1{ float: right; font-size: 60px; font-weight: 600; }
 img.logo{ width: 80px; height: 80px; padding-right: 20px; }

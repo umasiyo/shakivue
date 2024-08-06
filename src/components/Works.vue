@@ -13,9 +13,7 @@ export default {
 }
 </script>
 
-<!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
-/* *{border:solid 1px red;} */
 section{
   width: 100%;
   height: 600px;
