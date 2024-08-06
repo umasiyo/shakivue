@@ -1,6 +1,6 @@
 <template>
 <section class="about" id="About">
-  <div class="toumei">
+  <div class="toumei"><!--背景写真透明にするやつ-->
     <div class="text">
       <h1>About</h1>
       <h2>シャキルスタジオって何でしたっけ</h2>
@@ -18,7 +18,6 @@ export default {
 
 <!-- ここでのCSSはこのcomponentでしか使用できない -->
 <style scoped>
-/* *{border:solid 1px red;} */
 section{
   display: block;
   width: 100%;
@@ -29,8 +28,8 @@ section{
   background-repeat: no-repeat;
   object-fit: cover;
 }
-.toumei{ width: 100%; height: 600px; background-color: rgba(255, 255, 255, 0.567);}
-.text{ position: relative; top: 25%; margin: 0; padding: 0;}
+.toumei{ width: 100%; height: 600px; background-color: rgba(255, 255, 255, 0.567);}/*rgbaが透明にするやつ*/
+.text{ position: relative; top: 25%; margin: 0; padding: 0; text-align: center; }/*textをまとめて位置指定。横中央寄せ。*/
 .text h1{font-size: 60px; color: black; margin-bottom: 0}
 .text h2{font-size: 30px; color: #314F87; margin-top: 0;}
 .text p{font-size: 25px; color: black;}
