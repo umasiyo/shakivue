@@ -7,14 +7,16 @@
     <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。"><!--ページの簡単な説明-->
   </head>
   <body>
-    <NiceHeader/>
-    <NiceTop/>
-    <NiceAbout/>
-    <NiceWorks/>
-    <NiceRecords/>
-    <NiceForm/>
-    <NiceFooter/>
-    <!-- <HelloWorld/> -->
+    <div class="main">
+      <NiceHeader/>
+      <NiceTop/>
+      <NiceAbout/>
+      <NiceWorks/>
+      <NiceRecords/>
+      <NiceForm/>
+      <NiceFooter/>
+      <!-- <HelloWorld/> -->
+    </div>
   </body>
 </html>
 </template>
@@ -50,6 +52,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html{ font-size: 100%; scroll-behavior: smooth; }/*後でemとかrem使えるようにfont-sizeの基準決めとく。スクロールを滑らかに*/
-body{ margin: 0; padding: 0; }/*変な余白があると嫌なので*/
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}/*後でemとかrem使えるようにfont-sizeの基準決めとく。スクロールを滑らかに*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*変な余白があると嫌なので*/
+.main {
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
 </style>

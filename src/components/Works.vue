@@ -17,9 +17,26 @@ export default {
 section{
   width: 100%;
   height: 600px;
-  background-color: white;
+  background: rgb(143, 125, 125);
+  position: relative;
 }
-.text{ width: 80%; text-align: left; position: relative; top: 15%; left: 18%; margin: 0; padding: 0;}
-.text h1{ font-size: 60px; color: black; margin-bottom: 0; }
-.text h2{ font-size: 30px; color: #314F87; margin-top: 0; }
+.text {
+  width: 50%;
+  text-align: left;
+  position: absolute;
+  top: 5%;
+  left: 18%;
+  margin: 0;
+  padding: 0;
+}
+.text h1 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 0;
+}
+.text h2 {
+  font-size: 1.8rem;
+  color: #314F87;
+  margin-top: 0;
+}
 </style>
