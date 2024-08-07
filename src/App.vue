@@ -43,7 +43,6 @@ export default {
     NiceFooter
   }
 }
-
 </script>
 
 <style>
