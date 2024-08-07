@@ -1,13 +1,4 @@
 <template>
-
-<div id="loading">
-  <div class="shakilstudio1"><!--ロゴ-->
-      <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
-      <h1>SHAKIL STUDIO</h1>
-      <h2>is getting ready.</h2>
-  </div>
-</div>
-
 <a href="#Top"><!--ナビゲーションで説明する-->
 <header>
   <div class="shakilstudio"><!--ロゴ-->
@@ -89,27 +80,4 @@ header {
   height: 37px;
   margin: 15px;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/
-
-#loading {
-  transition: all 1s;
-  background: #082B71;
-  position: fixed;
-  z-index: 9999;
-  inset: 0;
-  display: grid;
-  place-items: center;
-}
-.shakilstudio1 {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-}
-.shakilstudio1 h1{
-  margin-right: 30px;
-}
-.loaded {
-  opacity: 0;
-  visibility: hidden;
-}
 </style>

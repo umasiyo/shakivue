@@ -2,11 +2,18 @@
 <html lang="ja"><!--日本語のhtml文書だよの宣言-->
   <head><!--ページ情報記述-->
     <meta charset="UTF-8"><!--文字化けしないために必須-->
-    <link rel="icon" type="png" href="../assets/logo_white.png">
+    <link rel="icon" type="png" href="./assets/logo_white.png">
     <title>シャキルスタジオメンバー募集</title><!--ブラウザタブ、ブックマークしたときのタイトル-->
     <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。"><!--ページの簡単な説明-->
   </head>
   <body>
+    <div id="loading">
+      <div class="shakilstudio1"><!--ロゴ-->
+          <img src="./assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
+          <h1>SHAKIL STUDIO</h1>
+          <h2>is getting ready.</h2>
+      </div>
+    </div>
     <div class="main">
       <NiceHeader/>
       <NiceTop/>
@@ -43,6 +50,12 @@ export default {
     NiceFooter
   }
 }
+const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
+window.onload=async()=>{
+  const loading = document.getElementById('loading')
+  await sleep(3000);
+  loading.classList.add('loaded')
+}
 </script>
 
 <style>
@@ -64,5 +77,32 @@ body {
   width: 100%;
   height: 100vh;
   background: white;
+}
+#loading {
+  transition: all 1s;
+  background: #082B71;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.shakilstudio1 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  width: 37px;
+  height: 37px;
+  margin: 15px;
+}
+.shakilstudio1 h1{
+  margin-right: 30px;
+}
+.loaded {
+  opacity: 0;
+  visibility: hidden;
 }
 </style>
