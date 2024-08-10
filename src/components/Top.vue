@@ -42,7 +42,7 @@ section {
   margin: 0;
 }/*line-heightは行間設定*/
 .left h2 {
-  font-size: 2rem;/*min20px,max60px*/
+  font-size: 1.8rem;/*min20px,max60px*/
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   margin: 0;
 }

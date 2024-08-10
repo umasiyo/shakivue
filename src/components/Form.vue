@@ -3,13 +3,15 @@
   <div class="contents">
     <h1>Form</h1>
     <h2>参加したい？歓迎するよ！</h2>
-    <ul class="zukei list">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <p class="zukei setumei"></p>
+    <div class="zukei">
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <p class="setumei"></p>
+    </div>
     <div>
       <a class="button insta" href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">質問等はこちらのDMまで!</a>
       <a class="button googleform" href="https://forms.gle/KLi59rPmnbTE9RGG8" target="_blank" rel="noopener">お申し込みはここから!</a>
@@ -51,7 +53,7 @@ section {
   margin-top: 0;
 }
 .zukei {
-  float: left;
+  display: flex;
 }
 .form li {
   list-style: none;

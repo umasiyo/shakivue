@@ -16,7 +16,7 @@
       <p><small>&copy; 2024 Shakil Studio. All rights reserved.</small></p>
       <div class="shakilstudio">
         <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
-        <h1>SHAKIL STUDIO</h1>
+        <img src="../assets/textlogo_white.png" alt="ShakilStudio_textlogo" class="textlogo">
     </div>
   </div>
 </footer>
@@ -53,6 +53,10 @@ footer {
 .nav a{
   color: white;
   text-decoration: none;
+  transition: 0.2s;
+}
+.nav a:hover {
+  color: rgba(255, 255, 255, 0.567);
 }
 footer h3{
   font-size: 1.5rem;
@@ -88,8 +92,14 @@ footer h3{
   margin: 0;
 }
 .logo {
-  width: 80px;
-  height: 80px;
-  padding-right: 20px;
+  width: 70px;
+  height: 70px;
+  padding-right: 30px;
+  margin: 0;
 }
+.textlogo {
+  width: 470px;
+  height: 60px;
+  margin: 0;
+}/*シャキスタロゴ、インスタロゴのサイズ設定*/
 </style>

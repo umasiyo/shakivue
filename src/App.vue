@@ -10,7 +10,7 @@
     <div id="loading">
       <div class="shakilstudio1"><!--ロゴ-->
           <img src="./assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
-          <h1>SHAKIL STUDIO</h1>
+          <img src="./assets/textlogo_white.png" alt="ShakilStudio_textlogo" class="textlogo">
           <h2>is getting ready.</h2>
       </div>
     </div>
@@ -60,7 +60,7 @@ window.onload=async()=>{
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -94,12 +94,18 @@ body {
   color: white;
 }
 .logo {
-  width: 37px;
-  height: 37px;
-  margin: 15px;
+  width: 56px;
+  height: 56px;
+  margin: 24px;
 }
-.shakilstudio1 h1{
+.textlogo {
+  width: 376px;
+  height: 48px;
   margin-right: 30px;
+}/*シャキスタロゴ、インスタロゴのサイズ設定*/
+.shakilstudio1 h2 {
+  position: relative;
+  top: 15px;
 }
 .loaded {
   opacity: 0;

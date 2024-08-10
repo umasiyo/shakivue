@@ -4,7 +4,7 @@
   <div class="shakilstudio"><!--ロゴ-->
     <a href="https://umasiyo.github.io/shakivue/"><!--aでリンク、herfに飛ぶ先のurl-->
       <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
-      <h1>SHAKIL STUDIO</h1>
+      <img src="../assets/textlogo_white.png" alt="ShakilStudio_textlogo" class="textlogo">
     </a>
   </div>
   <nav><!--ナビゲーション-->
@@ -52,7 +52,6 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white;
 }/*ロゴのimgとtextを横並び、縦中央配置。リンクの装飾を消す*/
 .nav {
   display: flex;
@@ -76,8 +75,12 @@ header {
   color: rgba(255, 255, 255, 0.567);
 }
 .logo {
-  width: 37px;
-  height: 37px;
+  width: 35px;
+  height: 35px;
   margin: 15px;
+}/*シャキスタロゴ、インスタロゴのサイズ設定*/
+.textlogo {
+  width: 235px;
+  height: 30px;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/
 </style>
