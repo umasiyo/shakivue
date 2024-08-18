@@ -98,7 +98,7 @@ footer h3{
   margin: 0;
 }
 .textlogo {
-  width: 470px;
+  width: 520px;
   height: 60px;
   margin: 0;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/

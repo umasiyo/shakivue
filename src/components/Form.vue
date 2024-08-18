@@ -98,6 +98,7 @@ section {
 .hiratasan {
   position: absolute;
   top: 25%;
-  left: 60%;
+  left: 65%;
+  filter: drop-shadow(0px 0px 2px #4f4e4e);
 }
 </style>

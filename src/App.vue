@@ -99,7 +99,7 @@ body {
   margin: 24px;
 }
 .textlogo {
-  width: 376px;
+  width: 41ch;
   height: 48px;
   margin-right: 30px;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/

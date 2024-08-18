@@ -80,7 +80,7 @@ header {
   margin: 15px;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/
 .textlogo {
-  width: 235px;
+  width: 260px;
   height: 30px;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/
 </style>
