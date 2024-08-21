@@ -72,6 +72,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }/*変な余白があると嫌なので*/
 .main {
   width: 100%;

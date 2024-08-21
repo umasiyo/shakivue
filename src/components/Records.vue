@@ -66,6 +66,7 @@ section {
   top: 15%;
   left: 50%;
   background: #252525;
+  filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1s;
   z-index: 2;
 }
@@ -77,6 +78,7 @@ section {
   top: 15%;
   left: 55%;
   background: #D9D9D9;
+  filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1s;
   z-index: 1;
 }
@@ -99,6 +101,7 @@ section {
   top: 15%;
   left: 14%;
   background: #252525;
+  filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1.2s;
   z-index: 2;
 }
@@ -110,6 +113,7 @@ section {
   top: 15%;
   left: 19%;
   background: #D9D9D9;
+  filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1.2s;
   z-index: 1;
 }

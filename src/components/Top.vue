@@ -55,6 +55,7 @@ section {
   border-radius: 1.5rem;
   text-decoration: none;
   padding:5px 50px;/*テキスト周りの余白を設定してボタンのサイズを決めれる*/
+  filter: drop-shadow(0px 0px 2px #4f4e4e);
 }
 h3{
   position: absolute;
