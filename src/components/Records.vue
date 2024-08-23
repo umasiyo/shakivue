@@ -134,13 +134,13 @@ section {
 }
 .record1:hover .record1circle{
   left:68%;
-  animation: rotate_circle 5s;
+  animation: rotate_circle 2s;
 }
 .record2:hover .record2box{
   left:0%;
 }
 .record2:hover .record2circle{
   left:32%;
-  animation: rotate_circle 5s;
+  animation: rotate_circle 2s;
 }
 </style>

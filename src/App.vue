@@ -53,7 +53,7 @@ export default {
 const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
 window.onload=async()=>{
   const loading = document.getElementById('loading')
-  await sleep(3000);
+  await sleep(2000);
   loading.classList.add('loaded')
 }
 </script>
@@ -66,14 +66,14 @@ window.onload=async()=>{
 }
 html {
   font-size: 100%;
-  scroll-behavior: smooth;
-}/*後でemとかrem使えるようにfont-sizeの基準決めとく。スクロールを滑らかに*/
+}/*後でemとかrem使えるようにfont-sizeの基準決めとく。*/
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-}/*変な余白があると嫌なので*/
+  scroll-behavior: smooth;
+}/*変な余白があると嫌なので。スクロールを滑らかに*/
 .main {
   width: 100%;
   height: 100vh;
