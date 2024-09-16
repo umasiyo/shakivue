@@ -1,11 +1,9 @@
 <template>
 <section class="top" id="Top"><!--headerのナビゲーションの移動先としてid設定-->
   <div class="left"><!--左端を揃えたいテキストまとめた-->
-    <h1>シャキルスタジオ<br>メンバー募集中！</h1>
-    <h2>駆け出しのアナタも、熟練のアナタも大歓迎！</h2>
-    <a class="button" href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">制作の依頼をしたい方はこちらへ！</a>
+    <h1>Make it better than when you arrived.</h1>
+    <h2>「使う前より美しく」の理念のもと、<br>お客様の依頼・アイデアをより良い物にします。</h2>
   </div>
-  <h3>見たいのは、<br>何かを本気で作る君</h3>
 </section>
 </template>
 
@@ -18,7 +16,6 @@ export default {
 <style scoped>
 section { 
   display: block;
-  font-family: sans-serif; 
   color: white;
   width: 100%;
   height: 100vh;/*表示できる画面の縦100%*/
@@ -31,39 +28,12 @@ section {
 }
 .left {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 18%;
-  width: 40%;
 }/*左端を揃えたいテキストをまとめて位置指定する。width100%のまま,右に18%ずらすとその分空白が生まれるので、width82%以下にする。*/
 .left h1 {
-  font-size: 4rem;/*min20px,max60px*/
+  font-size: 3rem;/*min20px,max60px*/
   filter: drop-shadow(0px 0px 2px #4f4e4e);
-  line-height: 110%;
   margin: 0;
 }/*line-heightは行間設定*/
-.left h2 {
-  font-size: 1.8rem;/*min20px,max60px*/
-  filter: drop-shadow(0px 0px 2px #4f4e4e);
-  margin: 0;
-}
-.button { 
-  font-size: 1.5rem;
-  font-weight: 600;
-  background: linear-gradient(to right, #E85BFF, #03F0FF);/*グラデーション*/
-  color: white;
-  text-align: center;
-  border-radius: 1.5rem;
-  text-decoration: none;
-  padding:5px 50px;/*テキスト周りの余白を設定してボタンのサイズを決めれる*/
-  filter: drop-shadow(0px 0px 2px #4f4e4e);
-}
-h3{
-  position: absolute;
-  top: 20%;
-  right: 18%;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;/*文章縦書きにするやつ。意味忘れちゃった調べてくれー*/
-  font-size: 4rem;/*min20px,max60px*/
-  filter: drop-shadow(0px 0px 2px #4f4e4e);
-}
 </style>

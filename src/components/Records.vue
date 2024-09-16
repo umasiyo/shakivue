@@ -2,7 +2,7 @@
 <section class="Records" id="Records">
   <div class="text">
     <h1>Records</h1>
-    <h2>どんな生活を送っているのか？</h2>
+    <h2>詳細な活動内容</h2>
   </div>
   <div class="record1">
     <div class="record1box"></div>
@@ -43,12 +43,12 @@ section {
 }
 .text h1 {
   font-size: 3rem;
-  color: black;
+  color: #102246;
   margin-bottom: 0;
 }
 .text h2 {
   font-size: 1.8rem;
-  color: #314F87;
+  color: #5077C5;
   margin-top: 0;
 }
 .record1 {

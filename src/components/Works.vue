@@ -2,7 +2,7 @@
 <section class="works" id="Works">
   <div class="text">
     <h1>Works</h1>
-    <h2>たとえば何作ってんすか？</h2>
+    <h2>作成した作品の一部</h2>
   </div>
   <div class="scroll-infinity">
     <div class="scroll-infinity__wrap">
@@ -65,7 +65,7 @@ export default {
 section{
   width: 100%;
   height: 600px;
-  background: #ffffff;
+  background: white;
   position: relative;
 }
 .text {
@@ -79,12 +79,12 @@ section{
 }
 .text h1 {
   font-size: 3rem;
-  color: black;
+  color: #102246;
   margin-bottom: 0;
 }
 .text h2 {
   font-size: 1.8rem;
-  color: #314F87;
+  color: #5077C5;
   margin-top: 0;
 }
 

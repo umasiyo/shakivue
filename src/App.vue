@@ -3,6 +3,9 @@
   <head><!--ページ情報記述-->
     <meta charset="UTF-8"><!--文字化けしないために必須-->
     <link rel="icon" type="png" href="./assets/logo_white.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
     <title>シャキルスタジオメンバー募集</title><!--ブラウザタブ、ブックマークしたときのタイトル-->
     <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。"><!--ページの簡単な説明-->
   </head>
@@ -60,9 +63,9 @@ window.onload=async()=>{
 
 <style>
 #app {
-  font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 html {
   font-size: 100%;
@@ -81,7 +84,7 @@ body {
 }
 #loading {
   transition: all 1s;
-  background: #082B71;
+  background: #082B70;
   position: fixed;
   z-index: 9999;
   inset: 0;

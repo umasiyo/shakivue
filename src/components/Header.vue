@@ -43,7 +43,7 @@ header {
   width: 100%;
   height: 70px;
   z-index: 10;/*ヘッダーの上に他の要素が重ならないようにz軸を高めに設定*/
-  background-color: #082B71;
+  background-color: #082B70;
   display: flex;
   align-items: center;/*header内の要素を横並びに。縦中央に揃える。*/
   justify-content: space-between;/*header内の要素を横に均等に並べる*/
@@ -56,7 +56,7 @@ header {
 .nav {
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 200;
 }/*min10px,max23px*//*font-family: Montserrat;*/

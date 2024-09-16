@@ -59,12 +59,12 @@ section {
 }
 .contents h1 {
   font-size: 3rem;
-  color: black;
+  color: #102246;
   margin-bottom: 0;
 }
 .contents h2 {
   font-size: 1.8rem;
-  color: #314F87;
+  color: #5077C5;
   margin-top: 0;
 }
 .zukei {

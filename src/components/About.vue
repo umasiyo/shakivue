@@ -3,8 +3,8 @@
   <div class="toumei"><!--背景写真透明にするやつ-->
     <div class="text">
       <h1>About</h1>
-      <h2>シャキルスタジオって何でしたっけ</h2>
-      <p>シャキルスタジオ（仮）とは、<br>ポスター、動画、webサイト等の制作を行う団体です。<br>依頼者に寄り添い、想像を超える作品を目指します。</p>
+      <h2>シャキルスタジオとは</h2>
+      <p>ポスター、動画、webサイトの制作やイベント配信環境の整備など<br>”なんでも”やる学生団体です。<br>依頼を募集し、お客様に寄り添った仕事をしていきます。<br>メンバーは経験値に関係なく興味がある分野にチャレンジし、成長を目指します。</p>
     </div>
   </div>
 </section>
@@ -43,16 +43,16 @@ section {
 }/*textをまとめて位置指定。横中央寄せ。*/
 .text h1 {
   font-size: 3rem;
-  color: black;
+  color: #102246;
   margin-bottom: 0
 }
 .text h2 {
   font-size: 1.8rem;
-  color: #314F87;
+  color: #5077C5;
   margin-top: 0;
 }
 .text p {
   font-size: 1.5rem;
-  color: black;
+  color: #102246;
 }
 </style>
