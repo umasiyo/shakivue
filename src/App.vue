@@ -5,7 +5,7 @@
     <link rel="icon" type="png" href="./assets/logo_white.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <title>シャキルスタジオメンバー募集</title><!--ブラウザタブ、ブックマークしたときのタイトル-->
     <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。"><!--ページの簡単な説明-->
   </head>
@@ -63,24 +63,25 @@ window.onload=async()=>{
 
 <style>
 #app {
-  font-family: "BIZ UDPGothic", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 }/*後でemとかrem使えるようにfont-sizeの基準決めとく。*/
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   overflow-x: hidden;
-  scroll-behavior: smooth;
-}/*変な余白があると嫌なので。スクロールを滑らかに*/
+}/*変な余白があると嫌なので。スクロールを滑らかに#082B70*/
 .main {
   width: 100%;
-  height: 100vh;
-  background: white;
+  height: 100%;
+  background: linear-gradient(#082B70, #89ABF0);
+  color: white;
 }
 #loading {
   transition: all 1s;

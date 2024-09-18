@@ -29,7 +29,6 @@ export default {
 section {
   width: 100%;
   height: 600px;
-  background: white;
   position: relative;
 }
 .text {
@@ -43,12 +42,10 @@ section {
 }
 .text h1 {
   font-size: 3rem;
-  color: #102246;
   margin-bottom: 0;
 }
 .text h2 {
   font-size: 1.8rem;
-  color: #5077C5;
   margin-top: 0;
 }
 .record1 {
@@ -57,7 +54,6 @@ section {
   position: absolute;
   top: 30%;
   left: 0;
-  background: white;
 }
 .record1box {
   width: 240px;
@@ -92,7 +88,6 @@ section {
   position: absolute;
   top: 30%;
   left: 50%;
-  background: white;
 }
 .record2box {
   width: 240px;

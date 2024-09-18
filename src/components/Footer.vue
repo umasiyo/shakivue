@@ -30,10 +30,8 @@ export default {
 
 <style scoped>
 footer {
-  background: #082B71;
   width: 100%;
   height: 420px;
-  color: white;
   position: relative;
 }
 .right {

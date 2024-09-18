@@ -1,6 +1,8 @@
 <template>
 <a href="#Top"><!--ナビゲーションで説明する-->
+<div id="bar"></div>
 <header>
+  <div id="bar"></div>
   <div class="shakilstudio"><!--ロゴ-->
     <a href="https://umasiyo.github.io/shakivue/"><!--aでリンク、herfに飛ぶ先のurl-->
       <img src="../assets/logo_white.png" alt="ShakilStudio_logo" class="logo">
@@ -34,6 +36,16 @@ window.onload=async()=>{
   await sleep(3000);
   loading.classList.add('loaded')
 }
+
+const getScrollPercent = () => {
+  const scrolled = window.scrollY;
+  const pageHeight = document.documentElement.scrollHeight;
+  const viewHeight = document.documentElement.clientHeight;
+  const percentage = scrolled / (pageHeight - viewHeight) * 100;
+  document.querySelector('#bar').style.width = `${percentage}%`; // バックティックに修正
+};
+
+window.addEventListener('scroll', getScrollPercent);
 </script>
 
 <!--ここでのCSSはこのcomponentでしか使用できない-->
@@ -41,9 +53,8 @@ window.onload=async()=>{
 header { 
   position: fixed;/*ヘッダーを常に画面の上に表示*/
   width: 100%;
-  height: 70px;
-  z-index: 10;/*ヘッダーの上に他の要素が重ならないようにz軸を高めに設定*/
-  background-color: #082B70;
+  height: 4rem;
+  z-index: 1000;/*ヘッダーの上に他の要素が重ならないようにz軸を高めに設定*/
   display: flex;
   align-items: center;/*header内の要素を横並びに。縦中央に揃える。*/
   justify-content: space-between;/*header内の要素を横に均等に並べる*/
@@ -56,7 +67,7 @@ header {
 .nav {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 200;
 }/*min10px,max23px*//*font-family: Montserrat;*/
@@ -83,4 +94,10 @@ header {
   width: 260px;
   height: 30px;
 }/*シャキスタロゴ、インスタロゴのサイズ設定*/
+#bar {
+  z-index: 1000;
+  position: fixed;
+  background-color: #BCD2FF;
+  height: 0.3rem;
+}
 </style>

@@ -46,7 +46,6 @@ export default {
 section {
   width: 100%;
   height: 700px;
-  background: white;
   position: relative;
 }
 .contents {
@@ -59,12 +58,10 @@ section {
 }
 .contents h1 {
   font-size: 3rem;
-  color: #102246;
   margin-bottom: 0;
 }
 .contents h2 {
   font-size: 1.8rem;
-  color: #5077C5;
   margin-top: 0;
 }
 .zukei {
@@ -84,7 +81,6 @@ section {
 	width: 70px;
   height: 70px;
   background: #d9d9d9;
-	color: #fff;
 	border-radius:50%;
 	font-size: 1.0rem;
 	cursor: pointer;

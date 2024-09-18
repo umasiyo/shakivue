@@ -21,14 +21,14 @@ section {
   display: block;
   width: 100%;
   height: 600px;
-  background-size: cover;
+  /*background-size: cover;
   background-position: center center;
   background-image: url(../assets/countdownhirata_seisakukatei.png);
   background-repeat: no-repeat;
-  object-fit: cover;
+  object-fit: cover;*/
   position: relative;
 }
-.toumei {
+/*.toumei {
   position: absolute;
   width: 100%;
   height: 600px;
@@ -43,16 +43,13 @@ section {
 }/*textをまとめて位置指定。横中央寄せ。*/
 .text h1 {
   font-size: 3rem;
-  color: #102246;
   margin-bottom: 0
 }
 .text h2 {
   font-size: 1.8rem;
-  color: #5077C5;
   margin-top: 0;
 }
 .text p {
   font-size: 1.5rem;
-  color: #102246;
 }
 </style>

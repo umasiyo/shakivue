@@ -8,45 +8,45 @@
     <div class="scroll-infinity__wrap">
       <ul class="scroll-infinity__list scroll-infinity__list--left">
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_1.png" />
-          <h3>作品名1</h3>
+          <img src="../assets/someisen-instagram-face.png" />
+          <h3>VALORANT 早明戦 ポスター</h3>
           <p>説明文1</p>
         </li>
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_2.png" />
-          <h3>作品名2</h3>
+          <img src="../assets/shakilstudio_aaaa7-01.png" />
+          <h3>シャキルスタジオメンバー募集ポスター</h3>
           <p>説明文2</p>
         </li>
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_1.png" />
-          <h3>作品名1</h3>
-          <p>説明文1</p>
+          <img src="../assets/石居摩耶様表.png" />
+          <h3>石居摩耶作品展ポスター</h3>
+          <p>説明文3</p>
         </li>
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_2.png" />
-          <h3>作品名2</h3>
-          <p>説明文2</p>
+          <img src="../assets/menu_sample_wip8.png" />
+          <h3>LOTUS CAFE TOKYO メニュー</h3>
+          <p>説明文4</p>
         </li>
       </ul>
       <ul class="scroll-infinity__list scroll-infinity__list--left">
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_1.png" />
-          <h3>作品名1</h3>
+          <img src="../assets/someisen-instagram-face.png" />
+          <h3>VALORANT 早明戦 ポスター</h3>
           <p>説明文1</p>
         </li>                        
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_2.png" />
-          <h3>作品名2</h3>
+          <img src="../assets/shakilstudio_aaaa7-01.png" />
+          <h3>シャキルスタジオメンバー募集ポスター</h3>
           <p>説明文2</p>
         </li>
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_1.png" />
-          <h3>作品名1</h3>
+          <img src="../assets/石居摩耶様表.png" />
+          <h3>石居摩耶作品展ポスター</h3>
           <p>説明文1</p>
         </li>
         <li class="scroll-infinity__item">
-          <img src="../assets/testpic_2.png" />
-          <h3>作品名2</h3>
+          <img src="../assets/menu_sample_wip8.png" />
+          <h3>LOTUS CAFE TOKYO メニュー</h3>
           <p>説明文2</p>
         </li>
       </ul>
@@ -65,7 +65,6 @@ export default {
 section{
   width: 100%;
   height: 600px;
-  background: white;
   position: relative;
 }
 .text {
@@ -79,12 +78,10 @@ section{
 }
 .text h1 {
   font-size: 3rem;
-  color: #102246;
   margin-bottom: 0;
 }
 .text h2 {
   font-size: 1.8rem;
-  color: #5077C5;
   margin-top: 0;
 }
 
@@ -111,14 +108,17 @@ from {
   padding: 0
 }
 .scroll-infinity__list--left {
-  animation: infinity-scroll-left 80s infinite linear 0.5s both;
+  animation: infinity-scroll-left 50s infinite linear 0.5s both;
 }
+/*.scroll-infinity__list--left:hover {
+  animation-play-state: paused
+}*/
 .scroll-infinity__item {
   width: calc(100vw / 4);
   margin: 0 2rem;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
 }
-.scroll-infinity__item>img {
-  width: 100%;
+.scroll-infinity__item img {
+  height: 18rem;
 }
 </style>
