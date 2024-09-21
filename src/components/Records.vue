@@ -5,15 +5,15 @@
     <h2>詳細な活動内容</h2>
   </div>
   <div class="record1">
-    <div class="record1box"></div>
+    <div class="record1box">撮影風景写真</div>
     <div class="record1circle">
-      <p>aaa</p>
+      <p>ポスターや動画作成の際に<br>素材が必要になった場合は,<br>自分たちで撮影を行います。</p>
     </div>
   </div>
   <div class="record2">
-    <div class="record2box"></div>
+    <div class="record2box">discordのやりとり、会議の写真</div>
     <div class="record2circle">
-      <p>bbb</p>
+      <p>普段はDiscord上で会議を行い<br>個々がやりたいことに合わせて<br>役割、タスクの決定をします。<br>制作物の意見交換など<br>積極的に行っています。</p>
     </div>
   </div>
 </section>
@@ -43,6 +43,7 @@ section {
 .text h1 {
   font-size: 3rem;
   margin-bottom: 0;
+  color: #CC8800;
 }
 .text h2 {
   font-size: 1.8rem;
@@ -61,7 +62,7 @@ section {
   position: absolute;
   top: 15%;
   left: 50%;
-  background: #252525;
+  background: #D9D9D9;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1s;
   z-index: 2;
@@ -73,14 +74,15 @@ section {
   position: absolute;
   top: 15%;
   left: 55%;
-  background: #D9D9D9;
+  background: #252525;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1s;
   z-index: 1;
 }
 .record1circle p {
-  position: absolute;
-  top: 40%;
+  text-align: center;
+  position: relative;
+  top: 30%;
 }
 .record2 {
   width: 50%;
@@ -95,7 +97,7 @@ section {
   position: absolute;
   top: 15%;
   left: 14%;
-  background: #252525;
+  background: #D9D9D9;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1.2s;
   z-index: 2;
@@ -107,35 +109,27 @@ section {
   position: absolute;
   top: 15%;
   left: 19%;
-  background: #D9D9D9;
+  background: #252525;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   transition: all 1.2s;
   z-index: 1;
 }
 .record2circle p {
-  position: absolute;
-  top: 40%;
-}
-@keyframes rotate_circle {
-    0% {
-        transform:rotate(0deg);/* アニメーションの進みが0%の時の状態 */
-    }
-    100% {
-        transform:rotate(360deg);/* アニメーションの進みが100%の時の状態 */
-    }
+  text-align: center;
+  position: relative;
+  top: 25%;
 }
 .record1:hover .record1box{
   left:36%;
 }
 .record1:hover .record1circle{
   left:68%;
-  animation: rotate_circle 2s;
 }
 .record2:hover .record2box{
   left:0%;
 }
 .record2:hover .record2circle{
   left:32%;
-  animation: rotate_circle 2s;
 }
+
 </style>

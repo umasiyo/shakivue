@@ -79,6 +79,7 @@ section{
 .text h1 {
   font-size: 3rem;
   margin-bottom: 0;
+  color: #CC8800;
 }
 .text h2 {
   font-size: 1.8rem;
@@ -115,7 +116,6 @@ from {
 }*/
 .scroll-infinity__item {
   width: calc(100vw / 4);
-  margin: 0 2rem;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
 }
 .scroll-infinity__item img {

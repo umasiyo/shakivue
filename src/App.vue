@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <title>シャキルスタジオメンバー募集</title><!--ブラウザタブ、ブックマークしたときのタイトル-->
+    <title>シャキルスタジオ</title><!--ブラウザタブ、ブックマークしたときのタイトル-->
     <meta name="description" content="シャキルスタジオ（仮）の再始動に際し、新たなメンバーを募集する。"><!--ページの簡単な説明-->
   </head>
   <body>
@@ -24,6 +24,7 @@
       <NiceWorks/>
       <NiceRecords/>
       <NiceForm/>
+      <NiceOffer/>
       <NiceFooter/>
       <!-- <HelloWorld/> -->
     </div>
@@ -39,6 +40,7 @@ import NiceAbout from './components/About.vue'
 import NiceWorks from './components/Works.vue'
 import NiceRecords from './components/Records.vue'
 import NiceForm from './components/Form.vue'
+import NiceOffer from './components/Offer.vue'
 import NiceFooter from './components/Footer.vue'
 
 export default {
@@ -50,6 +52,7 @@ export default {
     NiceWorks,
     NiceRecords,
     NiceForm,
+    NiceOffer,
     NiceFooter
   }
 }

@@ -1,38 +1,49 @@
 <template>
 <section class="form" id="Form">
   <div class="contents">
-    <h1>Form</h1>
-    <h2>参加したい？歓迎するよ！</h2>
+    <h1>Roles</h1>
+    <h2>役割について</h2>
     <div class="zukei">
       <ul class="list">
         <li>
           <input type="radio" name="setumei" id="btn01" class="radio" checked>
           <label for="btn01" class="btn">first</label>
-          <div class="first_setumei">1つ目の説明を記入</div>
+          <div class="first_setumei">
+            <p>3Dモデリング、プログラム<br>もっと写真増やしたい<br>上の丸の部分にパット見のイラストがほしい<br>素材できたらください</p>
+            <img src="../assets/03c889d160a2fe1eb248e7772eafe81a.jpg" />
+          </div>
         </li>
         <li>
           <input type="radio" name="setumei" id="btn02" class="radio">
           <label for="btn02" class="btn">second</label>
-          <div class="second_setumei">2つ目の説明を記入</div>
+          <div class="second_setumei">
+            <p>構成、編集</p>
+            <img src="../assets/mukashiekonte.png" />
+          </div>
         </li>
         <li>
           <input type="radio" name="setumei" id="btn03" class="radio">
           <label for="btn03" class="btn">third</label>
-          <div class="third_setumei">3つ目の説明を記入</div>
+          <div class="third_setumei">
+            <p>撮影</p>
+            <img src="../assets/countdownhirata_seisakukatei.png" />
+          </div>
         </li>
         <li>
           <input type="radio" name="setumei" id="btn04" class="radio">
           <label for="btn04" class="btn">fourth</label>
-          <div class="fourth_setumei">4つ目の説明を記入</div>
+          <div class="fourth_setumei">
+            <p>業務管理</p>
+            <img src="../assets/countdownhirata_seisakukatei.png" />
+          </div>
         </li>
       </ul>
     </div>
-    <div>
+    <div class="btns">
       <a class="button insta" href="https://www.instagram.com/shakilstudio.temp/" target="_blank" rel="noopener">質問等はこちらのDMまで!</a>
-      <a class="button googleform" href="https://forms.gle/KLi59rPmnbTE9RGG8" target="_blank" rel="noopener">お申し込みはここから!</a>
+      <a class="button googleform" href="https://forms.gle/KLi59rPmnbTE9RGG8" target="_blank" rel="noopener">参加したい方はここから!</a>
     </div>
   </div>
-  <img src="../assets/hiratasan.png" alt="hiratasan" class="hiratasan">
 </section>
 </template>
   
@@ -51,7 +62,6 @@ section {
 .contents {
   width: 50%;
   position: absolute;
-  top: 5%;
   left: 18%;
   margin: 0;
   padding: 0;
@@ -59,6 +69,7 @@ section {
 .contents h1 {
   font-size: 3rem;
   margin-bottom: 0;
+  color: #CC8800;
 }
 .contents h2 {
   font-size: 1.8rem;
@@ -67,11 +78,18 @@ section {
 .zukei {
   display: flex;
 }
+.list {
+  position: relative;
+  display: flex;
+}
 .form li {
   list-style: none;
   width: 70px;
   height: 70px;
-  margin-bottom: 10px;
+  margin-right: 2rem;
+}
+.radio {
+	display: none;
 }
 /*tuika*/
 .btn {
@@ -86,59 +104,80 @@ section {
 	cursor: pointer;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
 }
-.radio {
-	display: none;
-}
-.list {
-  position: relative;
-}
 .first_setumei {
-  width: 600px;
-  height: 320px;
+  width: 200%;
+  height: 20rem;
   position: absolute;
   top: 0%;
-  left: 50%;
-  background-color: yellow;
-  margin-left: 80px;
-  border-radius: 30px;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   display: none;
+  translate: 0 30%;
+}
+.first_setumei p {
+  width: 40%;
+  float: left;
+}
+.first_setumei img {
+  width: 50%;
+  height: 20rem;
+  float: left;
+  object-fit: cover;
 }
 .second_setumei {
-  width: 600px;
-  height: 320px;
+  width: 200%;
+  height: 20rem;
   position: absolute;
   top: 0%;
-  left: 50%;
-  background-color: red;
-  margin-left: 80px;
-  border-radius: 30px;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   display: none;
+  translate: 0 30%;
+}
+.second_setumei p {
+  width: 40%;
+  float: left;
+}
+.second_setumei img {
+  height: 20rem;
+  float: left;
+  object-fit: cover;
 }
 .third_setumei {
-  width: 600px;
-  height: 320px;
+  width: 200%;
+  height: 20rem;
   position: absolute;
   top: 0%;
-  left: 50%;
-  background-color: blue;
-  margin-left: 80px;
-  border-radius: 30px;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   display: none;
+  translate: 0 30%;
+}
+.third_setumei p {
+  width: 40%;
+  float: left;
+}
+.third_setumei img {
+  width: 50%;
+  height: 20rem;
+  float: left;
+  object-fit: cover;
 }
 .fourth_setumei {
-  width: 600px;
-  height: 320px;
+  width: 200%;
+  height: 20rem;
   position: absolute;
   top: 0%;
-  left: 50%;
-  background-color: green;
-  margin-left: 80px;
-  border-radius: 30px;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
   display: none;
+  translate: 0 30%;
+}
+.fourth_setumei p {
+  width: 40%;
+  float: left;
+}
+.fourth_setumei img {
+  width: 50%;
+  height: 20rem;
+  float: left;
+  object-fit: cover;
 }
 .radio:checked+.btn {
   border: solid 2px;
@@ -159,6 +198,9 @@ section {
 /*tuika*/
 .contents div {
   clear: both;
+}
+.btns {
+  translate: 0 900%;
 }
 .button {
   font-size: 1.5rem;
@@ -184,10 +226,5 @@ section {
   color: white;
   filter: drop-shadow(0px 0px 2px #4f4e4e);
 }
-.hiratasan {
-  position: absolute;
-  top: 25%;
-  left: 65%;
-  filter: drop-shadow(0px 0px 2px #4f4e4e);
-}
+
 </style>

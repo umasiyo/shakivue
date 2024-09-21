@@ -28,11 +28,11 @@ section {
   object-fit: cover;*/
   position: relative;
 }
-/*.toumei {
+.toumei {
   position: absolute;
   width: 100%;
   height: 600px;
-  background: rgba(255, 255, 255, 0.567);
+  /*background: rgba(255, 255, 255, 0.567);*/
 }/*rgbaが透明にするやつ*/
 .text {
   position: relative;
@@ -43,7 +43,8 @@ section {
 }/*textをまとめて位置指定。横中央寄せ。*/
 .text h1 {
   font-size: 3rem;
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: #CC8800;
 }
 .text h2 {
   font-size: 1.8rem;

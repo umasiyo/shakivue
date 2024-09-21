@@ -1,7 +1,7 @@
 <template>
 <section class="top" id="Top"><!--headerのナビゲーションの移動先としてid設定-->
   <div class="left"><!--左端を揃えたいテキストまとめた-->
-    <h1>使う前より美しく。</h1>
+    <h1>使う前より美しく。TOP画面は思いつきませんでした</h1>
   </div>
 </section>
 </template>
