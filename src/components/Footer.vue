@@ -6,7 +6,8 @@
         <li><a href="#About">ABOUT</a></li>
         <li><a href="#Works">WORKS</a></li>
         <li><a href="#Records">RECORDS</a></li>
-        <li><a href="#Form">FORM</a></li>
+        <li><a href="#Roles">ROLES</a></li>
+        <li><a href="#Contact">CONTACT</a></li>
       </ul>
     </nav>
     <h3>CONTACT US</h3>

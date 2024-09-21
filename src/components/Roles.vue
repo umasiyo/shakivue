@@ -1,5 +1,5 @@
 <template>
-<section class="form" id="Form">
+<section class="roles" id="Roles">
   <div class="contents">
     <h1>Roles</h1>
     <h2>役割について</h2>
@@ -49,7 +49,7 @@
   
 <script>
 export default {
-  name: 'NiceForm'
+  name: 'NiceRoles'
 }
 </script>
 
@@ -82,7 +82,7 @@ section {
   position: relative;
   display: flex;
 }
-.form li {
+.roles li {
   list-style: none;
   width: 70px;
   height: 70px;

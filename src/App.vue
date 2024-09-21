@@ -23,8 +23,8 @@
       <NiceAbout/>
       <NiceWorks/>
       <NiceRecords/>
-      <NiceForm/>
-      <NiceOffer/>
+      <NiceRoles/>
+      <NiceContact/>
       <NiceFooter/>
       <!-- <HelloWorld/> -->
     </div>
@@ -39,8 +39,8 @@ import NiceTop from './components/Top.vue'
 import NiceAbout from './components/About.vue'
 import NiceWorks from './components/Works.vue'
 import NiceRecords from './components/Records.vue'
-import NiceForm from './components/Form.vue'
-import NiceOffer from './components/Offer.vue'
+import NiceRoles from './components/Roles.vue'
+import NiceContact from './components/Contact.vue'
 import NiceFooter from './components/Footer.vue'
 
 export default {
@@ -51,8 +51,8 @@ export default {
     NiceAbout,
     NiceWorks,
     NiceRecords,
-    NiceForm,
-    NiceOffer,
+    NiceRoles,
+    NiceContact,
     NiceFooter
   }
 }

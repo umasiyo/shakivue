@@ -1,5 +1,5 @@
 <template>
-<section class="Records" id="Records">
+<section class="records" id="Records">
   <div class="text">
     <h1>Records</h1>
     <h2>詳細な活動内容</h2>

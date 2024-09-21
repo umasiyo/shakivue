@@ -14,7 +14,8 @@
       <a href="#About"><li>ABOUT</li></a><!--ページ内で移動させたいとき、移動先にid="移動先"で設定。-->
       <a href="#Works"><li>WORKS</li></a><!--リンクにはherf="#移動先"でできる。-->
       <a href="#Records"><li>RECORDS</li></a><!--スクロール動作を入れるためにApp.vueのcssにscroll-behavior: smooth;を入れてある-->
-      <a href="#Form"><li>FORM</li></a>
+      <a href="#Roles"><li>ROLES</li></a>
+      <a href="#Contact"><li>CONTACT</li></a>
     </ul>
   </nav>
   <div class="insta_logo"><!--インスタロゴ-->

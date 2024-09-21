@@ -1,7 +1,7 @@
 <template>
-    <section class="Offer" id="Offer">
+    <section class="contact" id="Contact">
       <div class="text">
-        <h1>Offer</h1>
+        <h1>Contact</h1>
         <h2>仕事依頼</h2>
       </div>
     </section>
@@ -9,7 +9,7 @@
       
     <script>
     export default {
-      name: 'NiceOffer'
+      name: 'NiceContact'
     }
     </script>
     
