@@ -19,9 +19,9 @@
     </div>
     <div class="main">
       <NiceHeader/>
-      <NiceTop/>
-      <NiceAbout/>
+      <!--<NiceTop/>-->
       <NiceWorks/>
+      <NiceAbout/>
       <NiceRecords/>
       <NiceRoles/>
       <NiceContact/>
@@ -35,7 +35,7 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import NiceHeader from './components/Header.vue'
-import NiceTop from './components/Top.vue'
+//import NiceTop from './components/Top.vue'
 import NiceAbout from './components/About.vue'
 import NiceWorks from './components/Works.vue'
 import NiceRecords from './components/Records.vue'
@@ -47,7 +47,6 @@ export default {
   name: 'App',
   components: {
     NiceHeader,
-    NiceTop,
     NiceAbout,
     NiceWorks,
     NiceRecords,
